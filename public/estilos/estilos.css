@@ -1,0 +1,74 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: black;
+}
+
+#fecha {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container {
+    width: 700px;
+    background-color: ivory;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.acceso {
+
+    color: blue;
+}
+
+.dni {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 30px;
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.entrada {
+    background-color: lawngreen;
+    width: 100%;
+    padding: 15px 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.salida {
+    background-color: red;
+    width: 100%;
+    padding: 15px 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
